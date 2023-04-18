@@ -1,10 +1,22 @@
-function Header() {}
+function Header() {
+  return (
+    <h1>
+      <a href="#">Home</a> | <a href="post_new">ProductsNew</a> |<a href="post_index">ProductIndex</a>
+    </h1>
+  );
+}
 
 function ProductsNew() {}
 
 function ProductsIndex() {}
 
-function Footer() {}
+function Footer() {
+  return (
+    <footer>
+      <p></p>
+    </footer>
+  );
+}
 
 function Content() {
   return (
